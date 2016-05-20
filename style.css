@@ -1,13 +1,21 @@
+body { 
+    background-color: aqua;
+
+}
+
 #container
 {
 	margin: 0 30px;
 	background: #fff;
+    background-color: darkmagenta;
 }
 
 #header
 {
 	background: #ccc;
 	padding: 20px;
+    background-color: black;
+    color: red;
 }
 
 #header h1 { margin: 0; }
@@ -58,6 +66,8 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: aqua;
+    
 }
 
 #edito h2
@@ -83,6 +93,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: cornflowerblue;
 }
 
 #footer
@@ -92,4 +103,6 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    color: red;
+    background-color: black;
 }
