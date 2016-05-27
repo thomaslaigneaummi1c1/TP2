@@ -1,13 +1,16 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #pink;
 }
-
+body{
+    background-image: url(bg.jpg);
+}
 #header
 {
 	background: #ccc;
 	padding: 20px;
+    background-image: url(bg.jpg);
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +19,8 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #pink;
+    background-image: url(bg.jpg);
 }
 
 #navigation ul
@@ -36,9 +40,10 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #pink;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+    background-image: url(bg.jpg);
 }
 
 #navigation li a:hover { background: #383; }
@@ -58,6 +63,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-image: url(bg.jpg);
 }
 
 #edito h2
@@ -83,6 +89,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-image: url("bg.jpg");
 }
 
 #footer
@@ -92,4 +99,5 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    background-image: url(bg.jpg);
 }
